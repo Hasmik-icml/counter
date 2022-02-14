@@ -3,8 +3,8 @@ const buttonLower = document.querySelector(".buttonLower");
 const buttonAdd = document.querySelector(".buttonAdd");
 
 buttonLower.addEventListener("click", function(){
-    result.innerHTML--;
+    result.innerHTML++;
 })
-buttonAdd.addEventListener("click", function(){
+buttonLower.addEventListener("click", function(){
     result.innerHTML++;
 })

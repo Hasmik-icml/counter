@@ -8,3 +8,9 @@ buttonLower.addEventListener("click", function(){
 buttonAdd.addEventListener("click", function(){
     result.innerHTML++;
 })
+
+document.querySelectorAll(".button").forEach(item => {
+    item.addEventListener("click", function(){
+        
+    })
+})
