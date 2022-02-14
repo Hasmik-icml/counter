@@ -3,22 +3,25 @@ const result = document.querySelector(".result");
 const buttonLower = document.querySelector(".buttonLower");
 const buttonAdd = document.querySelector(".buttonAdd");
 
-buttonLower.addEventListener("click", function(){
-    result.innerHTML--;
-})
-buttonAdd.addEventListener("click", function(){
-    result.innerHTML++;
-})
-
-// function incrisOrDecris(){
-
-// }
-// document.querySelectorAll(".button").forEach(item => {
-//     item.addEventListener("click", function(e){
-//         console.log(e.target);
-//         // this.innerHTML++;
-//     })
+// buttonLower.addEventListener("click", function(){
+//     result.innerHTML--;
 // })
+// buttonAdd.addEventListener("click", function(){
+//     result.innerHTML++;
+// })
+
+
+document.querySelectorAll(".button").forEach(item => {
+    item.addEventListener("click", function(e){
+        console.log("Target",item.getAttribute("data-id"));
+        if (item.getAttribute("data-id") === "add"){
+            result.innerHTML++;
+        }else{
+            result.innerHTML--;
+        }
+    })
+})
+
 
 // calculate sum of two numbers 
 document.querySelector(".calculateNumber").addEventListener("click", function(){
