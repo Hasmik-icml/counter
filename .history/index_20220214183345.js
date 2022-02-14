@@ -49,10 +49,7 @@ buttonStop.addEventListener("click", function(){
     timerStop();
 })
 
-buttonCansle.addEventListener("click", function(){
-    resultTimer.innerHTML = "0";
-})
-
+buttonCansle.addEventListener("click")
 function timerStart(){
     resultTimer.innerHTML++;
 }

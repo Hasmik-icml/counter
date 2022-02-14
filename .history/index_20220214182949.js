@@ -37,20 +37,16 @@ function calculate(num1){
 // timer
 const buttonStart = document.querySelector(".buttonStart");
 const buttonStop = document.querySelector(".buttonStop");
-const buttonCansle = document.querySelector(".buttonCansle");
 const resultTimer = document.querySelector(".resultTimer");
 let interval;
 
 buttonStart.addEventListener("click", function(){
+    console.log()
     interval = setInterval(timerStart, 1000);
 })
 
 buttonStop.addEventListener("click", function(){
     timerStop();
-})
-
-buttonCansle.addEventListener("click", function(){
-    resultTimer.innerHTML = "0";
 })
 
 function timerStart(){

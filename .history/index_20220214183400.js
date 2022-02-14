@@ -50,7 +50,7 @@ buttonStop.addEventListener("click", function(){
 })
 
 buttonCansle.addEventListener("click", function(){
-    resultTimer.innerHTML = "0";
+    v
 })
 
 function timerStart(){

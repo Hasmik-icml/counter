@@ -20,7 +20,7 @@ buttonAdd.addEventListener("click", function(){
 //     })
 // })
 
-// calculate sum of two numbers 
+//
 document.querySelector(".calculateNumber").addEventListener("click", function(){
     const number1 = +document.querySelector(".inputNumber1").value;
     const number2 = +document.querySelector(".inputNumber2").value;
@@ -32,31 +32,4 @@ function calculate(num1){
     return function(num2){
         return num1 + num2;
     }
-}
-
-// timer
-const buttonStart = document.querySelector(".buttonStart");
-const buttonStop = document.querySelector(".buttonStop");
-const buttonCansle = document.querySelector(".buttonCansle");
-const resultTimer = document.querySelector(".resultTimer");
-let interval;
-
-buttonStart.addEventListener("click", function(){
-    interval = setInterval(timerStart, 1000);
-})
-
-buttonStop.addEventListener("click", function(){
-    timerStop();
-})
-
-buttonCansle.addEventListener("click", function(){
-    resultTimer.innerHTML = "0";
-})
-
-function timerStart(){
-    resultTimer.innerHTML++;
-}
-
-function timerStop(){
-  clearInterval(interval);
 }

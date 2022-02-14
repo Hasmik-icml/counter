@@ -35,28 +35,7 @@ function calculate(num1){
 }
 
 // timer
-const buttonStart = document.querySelector(".buttonStart");
-const buttonStop = document.querySelector(".buttonStop");
-const buttonCansle = document.querySelector(".buttonCansle");
-const resultTimer = document.querySelector(".resultTimer");
-let interval;
+const start = document.querySelector(".buttonStart");
+const stop = document.querySelector(".buttonStop");
 
-buttonStart.addEventListener("click", function(){
-    interval = setInterval(timerStart, 1000);
-})
-
-buttonStop.addEventListener("click", function(){
-    timerStop();
-})
-
-buttonCansle.addEventListener("click", function(){
-    resultTimer.innerHTML = "0";
-})
-
-function timerStart(){
-    resultTimer.innerHTML++;
-}
-
-function timerStop(){
-  clearInterval(interval);
-}
+document.querySelector
