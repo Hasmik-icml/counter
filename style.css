@@ -60,3 +60,9 @@ body{
     width: 100px;
     outline: none;
 }
+.resultFibonachi{
+    font-size: 30px;
+    height: 50%;
+    overflow-wrap: anywhere;
+    padding: 30px;
+}
