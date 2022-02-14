@@ -45,11 +45,9 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-
 .inputs{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10px;
 }
 .input{
     border: none;
@@ -57,5 +55,5 @@ body{
     font-family: sans-serif;
     color: #333333;
     width: 100px;
-    outline: none;
+    outline: ;
 }

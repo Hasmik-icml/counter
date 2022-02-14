@@ -45,11 +45,10 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-
 .inputs{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    marg
 }
 .input{
     border: none;

@@ -1,6 +1,5 @@
 body{
     display:flex; 
-    text-align: center;
     /* flex-direction:column; 
     justify-content:center; */
     min-height:100vh;
@@ -9,8 +8,8 @@ body{
     background-size: cover;
 }
 .container {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 1px solid white;
     border-radius: 5px;
     margin: auto;
@@ -19,9 +18,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    display: inline-block;
-    justify-content: center;
-    vertical-align: bottom;
 }
 .counterHeader{
     color: white;
@@ -44,18 +40,4 @@ body{
 .buttons{
     display: flex;
     justify-content: space-evenly;
-}
-
-.inputs{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
-}
-.input{
-    border: none;
-    font-size: larger;
-    font-family: sans-serif;
-    color: #333333;
-    width: 100px;
-    outline: none;
 }

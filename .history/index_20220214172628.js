@@ -9,12 +9,12 @@ buttonAdd.addEventListener("click", function(){
     result.innerHTML++;
 })
 
-// function incrisOrDecris(){
+function incrisOrDecris(){
 
-// }
-// document.querySelectorAll(".button").forEach(item => {
-//     item.addEventListener("click", function(e){
-//         console.log(e.target);
-//         // this.innerHTML++;
-//     })
-// })
+}
+document.querySelectorAll(".button").forEach(item => {
+    item.addEventListener("click", function(e){
+        console.log(e.target);
+        // this.innerHTML++;
+    })
+})

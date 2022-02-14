@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     justify-content: center;
     display: inline-block;
+    /* align-items: center; */
     justify-content: center;
     vertical-align: bottom;
 }
@@ -44,18 +45,4 @@ body{
 .buttons{
     display: flex;
     justify-content: space-evenly;
-}
-
-.inputs{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
-}
-.input{
-    border: none;
-    font-size: larger;
-    font-family: sans-serif;
-    color: #333333;
-    width: 100px;
-    outline: none;
 }
