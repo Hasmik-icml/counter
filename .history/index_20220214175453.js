@@ -21,14 +21,6 @@ buttonAdd.addEventListener("click", function(){
 
 
 document.querySelector(".calculateNumber").addEventListener("click", function(){
-    const number1 = +document.querySelector(".inputNumber1").value;
-    const number2 = +document.querySelector(".inputNumber2").value;
-    document.querySelector(".resultSum").innerHTML = calculate(number1)(number2);
-
+    const number1 = document.querySelector(".inputNumber1");
+    const number2 = document.querySelector(".inputNumber2");
 })
-
-function calculate(num1){
-    return function(num2){
-        return num1 + num2;
-    }
-}
