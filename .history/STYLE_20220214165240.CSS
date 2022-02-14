@@ -1,0 +1,15 @@
+body{
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+
+    background-image: url("/Screenshot_14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+    text-align: center;
+}

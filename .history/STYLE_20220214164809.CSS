@@ -1,0 +1,19 @@
+body{
+    background-image: url("/Screenshot_14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+}
