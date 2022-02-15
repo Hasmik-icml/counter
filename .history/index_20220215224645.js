@@ -65,13 +65,12 @@ function timerStop() {
 }
 
 //fibonachi
-let fibonachiNumbers = [0, 1];
+let fibonachiNumbers = [0, 1, 1, 2];
 
 document.querySelector(".fibonachiButtons").addEventListener("click", function () {
-    let next = fibonachiNumbers.length;
-
+    let next = fibonachiNumbers.length + 1;
+    console.log(next);
     fibonachiNumbers.push(fib(next));
-
     document.querySelector(".resultFibonachi").innerHTML += ", " + fibonachiNumbers[next];
 
     function fib(nextFib){

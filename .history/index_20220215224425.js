@@ -68,10 +68,8 @@ function timerStop() {
 let fibonachiNumbers = [0, 1];
 
 document.querySelector(".fibonachiButtons").addEventListener("click", function () {
-    let next = fibonachiNumbers.length;
-
+    let next = fibonachiNumbers.length + 1;
     fibonachiNumbers.push(fib(next));
-
     document.querySelector(".resultFibonachi").innerHTML += ", " + fibonachiNumbers[next];
 
     function fib(nextFib){

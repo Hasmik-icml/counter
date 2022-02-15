@@ -65,7 +65,7 @@ function timerStop() {
 }
 
 //fibonachi
-let fibonachiNumbers = [0, 1];
+let fibonachiNumbers = [0.1];
 
 document.querySelector(".fibonachiButtons").addEventListener("click", function () {
     let next = fibonachiNumbers.length;

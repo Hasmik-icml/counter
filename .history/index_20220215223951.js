@@ -69,14 +69,11 @@ let fibonachiNumbers = [0, 1];
 
 document.querySelector(".fibonachiButtons").addEventListener("click", function () {
     let next = fibonachiNumbers.length;
-
-    fibonachiNumbers.push(fib(next));
-
+    fibonachiNumbers.push();
     document.querySelector(".resultFibonachi").innerHTML += ", " + fibonachiNumbers[next];
 
     function fib(nextFib){
-        if (nextFib <= 1) return nextFib;
-        return fib(nextFib - 2) + fib(nextFib - 1);
+        return fib(nextFib - 1) + fib(nextFib - 2);
     }
 })
 
