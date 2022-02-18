@@ -3,12 +3,25 @@ const result = document.querySelector(".result");
 const buttonLower = document.querySelector(".buttonLower");
 const buttonAdd = document.querySelector(".buttonAdd");
 
+let counter = new Counter();
+
 buttonLower.addEventListener("click", function () {
-    result.innerHTML--;
+    debugger;
+    result.innerHTML = counter.down();
 })
 buttonAdd.addEventListener("click", function () {
-    result.innerHTML++;
+    result.innerHTML = counter.up();
 })
+function Counter(){
+    let count = 0;
+
+    this.up = function(){
+       return count++;
+    }
+    this.down = function(){
+        return count--;
+    }
+}
 
 // second version
 // document.querySelectorAll(".button").forEach(item => {
